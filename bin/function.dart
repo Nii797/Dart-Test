@@ -16,7 +16,9 @@ void main(){
 
   // call function profile
   // profile(name, age, height, address); ==>> call variable var
-  profile('Soni', 23, 1.80, "bandung");
+  profile('Soni', 23, 1.80);
+
+  present('ken');
 
 }
 
@@ -26,7 +28,11 @@ String intro(String name){
 }
 
 // function didn't have callback value
-void profile(String name, int age, double height, String address){
+void profile(String name, int age, double height, [String address]){
   print('Hello, saya $name, saya tinggal di $address');
   print('umur saya $age, tinggi badan saya $height');
+}
+
+void present(String name){
+  print('My name $name');
 }
