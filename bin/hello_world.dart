@@ -12,10 +12,16 @@
 
 // variable type data
 void main(){
-  String name = 'Soni';
-  int age = 23;
-  double height = 1.80;
-  bool isMerried = false;
+  // String name = 'Soni';
+  // int age = 23;
+  // double height = 1.80;
+  // bool isMerried = false;
+
+  // use var 
+  var name = 'Soni';
+  var age = 23;
+  var height = 1.80;
+  var isMerried = false;
 
   print('hello $name selamat datang di dart dan Flutter');
   print('${name.length}');
