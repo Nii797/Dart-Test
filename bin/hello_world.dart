@@ -23,6 +23,16 @@ void main(){
   var height = 1.80;
   var isMerried = false;
 
+  // variable will taken
+  age = 15;
+
+  // if doesnt taken use final in variable example
+  final address = "bandung";
+  // address = "bandung Timur";
+
+  // undifined typedata in variable
+  // dynamic makanbelum = 'tidak tahu';
+
   print('hello $name selamat datang di dart dan Flutter');
   print('Namaku memiliki ${name.length} huruf');
   
@@ -31,4 +41,5 @@ void main(){
   print('Umur : $age');
   print('Tinggi badan : $height Meter');
   print('Status : $isMerried');
+  print('Alamat : $address');
 }
