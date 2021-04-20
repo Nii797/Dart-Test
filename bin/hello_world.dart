@@ -24,7 +24,7 @@ void main(){
   var isMerried = false;
 
   print('hello $name selamat datang di dart dan Flutter');
-  print('${name.length}');
+  print('Namaku memiliki ${name.length} huruf');
   
   print('============= BIODATA DIRI =============');
   print('Nama : $name');
